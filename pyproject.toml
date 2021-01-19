@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "airflow-pipelines"
+version = "0.1.0"
+description = ""
+authors = ["ECAA"]
+
+[tool.poetry.dependencies]
+python = "^3.6.10"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.0.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
